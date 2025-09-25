@@ -15,7 +15,7 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 
 ## Summary
 
-This lab covered implementing a top module and connecting multiple sub-modules inside of it. In this case, we were able to hook up the output of an instance of circuit_a.v and to the first input of circuit_b.v, and assigned the outputs and rest of the inputs to LEDs and switches respectively using the constraints file. 
+This lab covered implementing a top module and connecting multiple sub-modules inside of it. In this case, we were able to hook up the output of an instance of circuit_a.v and to the first input of circuit_b.v, and assigned the outputs and rest of the inputs to LEDs and switches respectively. These top level inputs and outputs were translated to physical switches and LEDs using the constraints file. 
 
 ## Lab Questions
 
